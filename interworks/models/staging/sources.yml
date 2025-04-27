@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: RECRUITMENT_DB.CANDIDATE_00200
+    database: RECRUITMENT_DB
+    schema: CANDIDATE_00200
+    tables:
+      - name: RAW_FLIGHTS 
