@@ -68,19 +68,19 @@ FILE_FORMAT = (TYPE = 'CSV' FIELD_DELIMITER = '|' COMPRESSION = 'gzip' SKIP_HEAD
 ```
 
 ### 2. Data modelling
-FACT_FLIGHTS
+- FACT_FLIGHTS
     Flight events, metrics, keys
     Analytical center
 
-DIM_AIRLINE
+- DIM_AIRLINE
     Airline names
     Lookup for airlines
 
-DIM_AIRPORT
+- DIM_AIRPORT
     Airport and city/state info
     Lookup for airports
-    
-DIM_DATE 
+
+- DIM_DATE 
     Calendar breakdown
     Easier date analysis
 
